@@ -1,0 +1,5 @@
+/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles/edit_cache.dir
+/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles/rebuild_cache.dir
+/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src/CMakeFiles/out.o.dir
+/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src/CMakeFiles/edit_cache.dir
+/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src/CMakeFiles/rebuild_cache.dir
