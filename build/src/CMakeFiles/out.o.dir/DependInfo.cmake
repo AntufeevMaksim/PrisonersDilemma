@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/PrisonerSimulator.cpp" "src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o.d"
   "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Kind.cpp" "src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o.d"
   "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Strategy.cpp" "src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o.d"
+  "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Traitor.cpp" "src/CMakeFiles/out.o.dir/Strategies/Traitor.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Strategies/Traitor.cpp.o.d"
   "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/main.cpp" "src/CMakeFiles/out.o.dir/main.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/main.cpp.o.d"
   )
 

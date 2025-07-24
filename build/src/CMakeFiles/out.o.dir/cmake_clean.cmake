@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/out.o.dir/Strategies/Kind.cpp.o.d"
   "CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o"
   "CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o.d"
+  "CMakeFiles/out.o.dir/Strategies/Traitor.cpp.o"
+  "CMakeFiles/out.o.dir/Strategies/Traitor.cpp.o.d"
   "CMakeFiles/out.o.dir/main.cpp.o"
   "CMakeFiles/out.o.dir/main.cpp.o.d"
   "out.o"

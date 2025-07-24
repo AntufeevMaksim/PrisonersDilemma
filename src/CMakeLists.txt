@@ -7,6 +7,7 @@ add_executable(out.o
     Simulator/MatrixLoader.cpp
     Strategies/Kind.cpp
     Strategies/Strategy.cpp
+    Strategies/Traitor.cpp
 )
 
 # Указываем, где искать заголовки

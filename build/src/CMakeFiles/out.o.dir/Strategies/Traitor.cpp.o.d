@@ -1,6 +1,7 @@
-src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o: \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Strategy.cpp \
+src/CMakeFiles/out.o.dir/Strategies/Traitor.cpp.o: \
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Traitor.cpp \
  /usr/include/stdc-predef.h \
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/Traitor.hpp \
  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/Strategy.hpp \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -198,6 +199,4 @@ src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o: \
  /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/Kind.hpp \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/Traitor.hpp
+ /usr/include/c++/13/bits/vector.tcc

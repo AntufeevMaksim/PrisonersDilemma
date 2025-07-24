@@ -3,7 +3,7 @@
 
 InputData::InputData(int argc, char* argv[])
 {
-    strategy_names = std::vector<std::string> {"Kind"};
+    strategy_names = std::vector<std::string> {"Kind", "Kind", "Traitor"};
     game_mode = FAST;
     steps_count = 10;
     config_path = "";
