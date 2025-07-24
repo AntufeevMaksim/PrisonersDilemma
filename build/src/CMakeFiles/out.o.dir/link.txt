@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/out.o.dir/main.cpp.o CMakeFiles/out.o.dir/Simulator/input_data.cpp.o CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o -o out.o 
+/usr/bin/c++ -g CMakeFiles/out.o.dir/main.cpp.o CMakeFiles/out.o.dir/Simulator/InputData.cpp.o CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o CMakeFiles/out.o.dir/Strategies/Kind.cpp.o CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o -o out.o 

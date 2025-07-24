@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug my_app",
+            "name": "Debug out.o",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/src/my_app",  // Путь к исполняемому файлу
+            "program": "${workspaceFolder}/build/src/out.o",  // Путь к исполняемому файлу
             "args": [],  // Аргументы командной строки (если нужны)
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

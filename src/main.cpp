@@ -1,5 +1,5 @@
 
-#include "prisoner_simulator.hpp"
+#include "PrisonerSimulator.hpp"
 
 int main(int argc, char* argv[])
 {

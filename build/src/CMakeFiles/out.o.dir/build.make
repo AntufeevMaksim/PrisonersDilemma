@@ -83,49 +83,113 @@ src/CMakeFiles/out.o.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/out.o.dir/main.cpp.s"
 	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/main.cpp -o CMakeFiles/out.o.dir/main.cpp.s
 
-src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.o: src/CMakeFiles/out.o.dir/flags.make
-src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/input_data.cpp
-src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.o: src/CMakeFiles/out.o.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.o"
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.o -MF CMakeFiles/out.o.dir/Simulator/input_data.cpp.o.d -o CMakeFiles/out.o.dir/Simulator/input_data.cpp.o -c /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/input_data.cpp
+src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o: src/CMakeFiles/out.o.dir/flags.make
+src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/InputData.cpp
+src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o: src/CMakeFiles/out.o.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o -MF CMakeFiles/out.o.dir/Simulator/InputData.cpp.o.d -o CMakeFiles/out.o.dir/Simulator/InputData.cpp.o -c /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/InputData.cpp
 
-src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/out.o.dir/Simulator/input_data.cpp.i"
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/input_data.cpp > CMakeFiles/out.o.dir/Simulator/input_data.cpp.i
+src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/out.o.dir/Simulator/InputData.cpp.i"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/InputData.cpp > CMakeFiles/out.o.dir/Simulator/InputData.cpp.i
 
-src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/out.o.dir/Simulator/input_data.cpp.s"
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/input_data.cpp -o CMakeFiles/out.o.dir/Simulator/input_data.cpp.s
+src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/out.o.dir/Simulator/InputData.cpp.s"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/InputData.cpp -o CMakeFiles/out.o.dir/Simulator/InputData.cpp.s
 
-src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o: src/CMakeFiles/out.o.dir/flags.make
-src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/prisoner_simulator.cpp
-src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o: src/CMakeFiles/out.o.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o"
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o -MF CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o.d -o CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o -c /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/prisoner_simulator.cpp
+src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o: src/CMakeFiles/out.o.dir/flags.make
+src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/PrisonerSimulator.cpp
+src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o: src/CMakeFiles/out.o.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o -MF CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o.d -o CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o -c /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/PrisonerSimulator.cpp
 
-src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.i"
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/prisoner_simulator.cpp > CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.i
+src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.i"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/PrisonerSimulator.cpp > CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.i
 
-src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.s"
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/prisoner_simulator.cpp -o CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.s
+src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.s"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/PrisonerSimulator.cpp -o CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.s
+
+src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o: src/CMakeFiles/out.o.dir/flags.make
+src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/OutputData.cpp
+src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o: src/CMakeFiles/out.o.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o -MF CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o.d -o CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o -c /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/OutputData.cpp
+
+src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/out.o.dir/Simulator/OutputData.cpp.i"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/OutputData.cpp > CMakeFiles/out.o.dir/Simulator/OutputData.cpp.i
+
+src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/out.o.dir/Simulator/OutputData.cpp.s"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/OutputData.cpp -o CMakeFiles/out.o.dir/Simulator/OutputData.cpp.s
+
+src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o: src/CMakeFiles/out.o.dir/flags.make
+src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/MatrixLoader.cpp
+src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o: src/CMakeFiles/out.o.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o -MF CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o.d -o CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o -c /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/MatrixLoader.cpp
+
+src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.i"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/MatrixLoader.cpp > CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.i
+
+src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.s"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/MatrixLoader.cpp -o CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.s
+
+src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o: src/CMakeFiles/out.o.dir/flags.make
+src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Kind.cpp
+src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o: src/CMakeFiles/out.o.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o -MF CMakeFiles/out.o.dir/Strategies/Kind.cpp.o.d -o CMakeFiles/out.o.dir/Strategies/Kind.cpp.o -c /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Kind.cpp
+
+src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/out.o.dir/Strategies/Kind.cpp.i"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Kind.cpp > CMakeFiles/out.o.dir/Strategies/Kind.cpp.i
+
+src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/out.o.dir/Strategies/Kind.cpp.s"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Kind.cpp -o CMakeFiles/out.o.dir/Strategies/Kind.cpp.s
+
+src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o: src/CMakeFiles/out.o.dir/flags.make
+src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Strategy.cpp
+src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o: src/CMakeFiles/out.o.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o -MF CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o.d -o CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o -c /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Strategy.cpp
+
+src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/out.o.dir/Strategies/Strategy.cpp.i"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Strategy.cpp > CMakeFiles/out.o.dir/Strategies/Strategy.cpp.i
+
+src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/out.o.dir/Strategies/Strategy.cpp.s"
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Strategy.cpp -o CMakeFiles/out.o.dir/Strategies/Strategy.cpp.s
 
 # Object files for target out.o
 out_o_OBJECTS = \
 "CMakeFiles/out.o.dir/main.cpp.o" \
-"CMakeFiles/out.o.dir/Simulator/input_data.cpp.o" \
-"CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o"
+"CMakeFiles/out.o.dir/Simulator/InputData.cpp.o" \
+"CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o" \
+"CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o" \
+"CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o" \
+"CMakeFiles/out.o.dir/Strategies/Kind.cpp.o" \
+"CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o"
 
 # External object files for target out.o
 out_o_EXTERNAL_OBJECTS =
 
 src/out.o: src/CMakeFiles/out.o.dir/main.cpp.o
-src/out.o: src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.o
-src/out.o: src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o
+src/out.o: src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o
+src/out.o: src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o
+src/out.o: src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o
+src/out.o: src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o
+src/out.o: src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o
+src/out.o: src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o
 src/out.o: src/CMakeFiles/out.o.dir/build.make
 src/out.o: src/CMakeFiles/out.o.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable out.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable out.o"
 	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/out.o.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

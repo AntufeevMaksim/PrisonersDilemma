@@ -1,8 +1,7 @@
-src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o: \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/prisoner_simulator.cpp \
+src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o: \
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/InputData.cpp \
  /usr/include/stdc-predef.h \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Simulator/prisoner_simulator.hpp \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Simulator/input_data.hpp \
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Simulator/InputData.hpp \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

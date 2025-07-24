@@ -130,53 +130,149 @@ out.o/fast:
 	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/build
 .PHONY : out.o/fast
 
-Simulator/input_data.o: Simulator/input_data.cpp.o
-.PHONY : Simulator/input_data.o
+Simulator/InputData.o: Simulator/InputData.cpp.o
+.PHONY : Simulator/InputData.o
 
 # target to build an object file
-Simulator/input_data.cpp.o:
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.o
-.PHONY : Simulator/input_data.cpp.o
+Simulator/InputData.cpp.o:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o
+.PHONY : Simulator/InputData.cpp.o
 
-Simulator/input_data.i: Simulator/input_data.cpp.i
-.PHONY : Simulator/input_data.i
+Simulator/InputData.i: Simulator/InputData.cpp.i
+.PHONY : Simulator/InputData.i
 
 # target to preprocess a source file
-Simulator/input_data.cpp.i:
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.i
-.PHONY : Simulator/input_data.cpp.i
+Simulator/InputData.cpp.i:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.i
+.PHONY : Simulator/InputData.cpp.i
 
-Simulator/input_data.s: Simulator/input_data.cpp.s
-.PHONY : Simulator/input_data.s
+Simulator/InputData.s: Simulator/InputData.cpp.s
+.PHONY : Simulator/InputData.s
 
 # target to generate assembly for a file
-Simulator/input_data.cpp.s:
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.s
-.PHONY : Simulator/input_data.cpp.s
+Simulator/InputData.cpp.s:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.s
+.PHONY : Simulator/InputData.cpp.s
 
-Simulator/prisoner_simulator.o: Simulator/prisoner_simulator.cpp.o
-.PHONY : Simulator/prisoner_simulator.o
+Simulator/MatrixLoader.o: Simulator/MatrixLoader.cpp.o
+.PHONY : Simulator/MatrixLoader.o
 
 # target to build an object file
-Simulator/prisoner_simulator.cpp.o:
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o
-.PHONY : Simulator/prisoner_simulator.cpp.o
+Simulator/MatrixLoader.cpp.o:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o
+.PHONY : Simulator/MatrixLoader.cpp.o
 
-Simulator/prisoner_simulator.i: Simulator/prisoner_simulator.cpp.i
-.PHONY : Simulator/prisoner_simulator.i
+Simulator/MatrixLoader.i: Simulator/MatrixLoader.cpp.i
+.PHONY : Simulator/MatrixLoader.i
 
 # target to preprocess a source file
-Simulator/prisoner_simulator.cpp.i:
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.i
-.PHONY : Simulator/prisoner_simulator.cpp.i
+Simulator/MatrixLoader.cpp.i:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.i
+.PHONY : Simulator/MatrixLoader.cpp.i
 
-Simulator/prisoner_simulator.s: Simulator/prisoner_simulator.cpp.s
-.PHONY : Simulator/prisoner_simulator.s
+Simulator/MatrixLoader.s: Simulator/MatrixLoader.cpp.s
+.PHONY : Simulator/MatrixLoader.s
 
 # target to generate assembly for a file
-Simulator/prisoner_simulator.cpp.s:
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.s
-.PHONY : Simulator/prisoner_simulator.cpp.s
+Simulator/MatrixLoader.cpp.s:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.s
+.PHONY : Simulator/MatrixLoader.cpp.s
+
+Simulator/OutputData.o: Simulator/OutputData.cpp.o
+.PHONY : Simulator/OutputData.o
+
+# target to build an object file
+Simulator/OutputData.cpp.o:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o
+.PHONY : Simulator/OutputData.cpp.o
+
+Simulator/OutputData.i: Simulator/OutputData.cpp.i
+.PHONY : Simulator/OutputData.i
+
+# target to preprocess a source file
+Simulator/OutputData.cpp.i:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.i
+.PHONY : Simulator/OutputData.cpp.i
+
+Simulator/OutputData.s: Simulator/OutputData.cpp.s
+.PHONY : Simulator/OutputData.s
+
+# target to generate assembly for a file
+Simulator/OutputData.cpp.s:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.s
+.PHONY : Simulator/OutputData.cpp.s
+
+Simulator/PrisonerSimulator.o: Simulator/PrisonerSimulator.cpp.o
+.PHONY : Simulator/PrisonerSimulator.o
+
+# target to build an object file
+Simulator/PrisonerSimulator.cpp.o:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o
+.PHONY : Simulator/PrisonerSimulator.cpp.o
+
+Simulator/PrisonerSimulator.i: Simulator/PrisonerSimulator.cpp.i
+.PHONY : Simulator/PrisonerSimulator.i
+
+# target to preprocess a source file
+Simulator/PrisonerSimulator.cpp.i:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.i
+.PHONY : Simulator/PrisonerSimulator.cpp.i
+
+Simulator/PrisonerSimulator.s: Simulator/PrisonerSimulator.cpp.s
+.PHONY : Simulator/PrisonerSimulator.s
+
+# target to generate assembly for a file
+Simulator/PrisonerSimulator.cpp.s:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.s
+.PHONY : Simulator/PrisonerSimulator.cpp.s
+
+Strategies/Kind.o: Strategies/Kind.cpp.o
+.PHONY : Strategies/Kind.o
+
+# target to build an object file
+Strategies/Kind.cpp.o:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o
+.PHONY : Strategies/Kind.cpp.o
+
+Strategies/Kind.i: Strategies/Kind.cpp.i
+.PHONY : Strategies/Kind.i
+
+# target to preprocess a source file
+Strategies/Kind.cpp.i:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.i
+.PHONY : Strategies/Kind.cpp.i
+
+Strategies/Kind.s: Strategies/Kind.cpp.s
+.PHONY : Strategies/Kind.s
+
+# target to generate assembly for a file
+Strategies/Kind.cpp.s:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.s
+.PHONY : Strategies/Kind.cpp.s
+
+Strategies/Strategy.o: Strategies/Strategy.cpp.o
+.PHONY : Strategies/Strategy.o
+
+# target to build an object file
+Strategies/Strategy.cpp.o:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o
+.PHONY : Strategies/Strategy.cpp.o
+
+Strategies/Strategy.i: Strategies/Strategy.cpp.i
+.PHONY : Strategies/Strategy.i
+
+# target to preprocess a source file
+Strategies/Strategy.cpp.i:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.i
+.PHONY : Strategies/Strategy.cpp.i
+
+Strategies/Strategy.s: Strategies/Strategy.cpp.s
+.PHONY : Strategies/Strategy.s
+
+# target to generate assembly for a file
+Strategies/Strategy.cpp.s:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.s
+.PHONY : Strategies/Strategy.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -211,12 +307,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... out.o"
-	@echo "... Simulator/input_data.o"
-	@echo "... Simulator/input_data.i"
-	@echo "... Simulator/input_data.s"
-	@echo "... Simulator/prisoner_simulator.o"
-	@echo "... Simulator/prisoner_simulator.i"
-	@echo "... Simulator/prisoner_simulator.s"
+	@echo "... Simulator/InputData.o"
+	@echo "... Simulator/InputData.i"
+	@echo "... Simulator/InputData.s"
+	@echo "... Simulator/MatrixLoader.o"
+	@echo "... Simulator/MatrixLoader.i"
+	@echo "... Simulator/MatrixLoader.s"
+	@echo "... Simulator/OutputData.o"
+	@echo "... Simulator/OutputData.i"
+	@echo "... Simulator/OutputData.s"
+	@echo "... Simulator/PrisonerSimulator.o"
+	@echo "... Simulator/PrisonerSimulator.i"
+	@echo "... Simulator/PrisonerSimulator.s"
+	@echo "... Strategies/Kind.o"
+	@echo "... Strategies/Kind.i"
+	@echo "... Strategies/Kind.s"
+	@echo "... Strategies/Strategy.o"
+	@echo "... Strategies/Strategy.i"
+	@echo "... Strategies/Strategy.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

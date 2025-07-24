@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/input_data.cpp" "src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Simulator/input_data.cpp.o.d"
-  "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/prisoner_simulator.cpp" "src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Simulator/prisoner_simulator.cpp.o.d"
+  "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/InputData.cpp" "src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Simulator/InputData.cpp.o.d"
+  "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/MatrixLoader.cpp" "src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Simulator/MatrixLoader.cpp.o.d"
+  "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/OutputData.cpp" "src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Simulator/OutputData.cpp.o.d"
+  "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/PrisonerSimulator.cpp" "src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o.d"
+  "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Kind.cpp" "src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o.d"
+  "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Strategy.cpp" "src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o.d"
   "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/main.cpp" "src/CMakeFiles/out.o.dir/main.cpp.o" "gcc" "src/CMakeFiles/out.o.dir/main.cpp.o.d"
   )
 

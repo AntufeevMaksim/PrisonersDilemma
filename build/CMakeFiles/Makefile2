@@ -96,12 +96,12 @@ src/clean: src/CMakeFiles/out.o.dir/clean
 src/CMakeFiles/out.o.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=1,2,3,4 "Built target out.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target out.o"
 .PHONY : src/CMakeFiles/out.o.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/out.o.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/out.o.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/out.o.dir/rule

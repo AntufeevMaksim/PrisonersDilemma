@@ -1,8 +1,12 @@
 # Создаём исполняемый файл из исходников
 add_executable(out.o
     main.cpp
-    Simulator/input_data.cpp
-    Simulator/prisoner_simulator.cpp
+    Simulator/InputData.cpp
+    Simulator/PrisonerSimulator.cpp
+    Simulator/OutputData.cpp
+    Simulator/MatrixLoader.cpp
+    Strategies/Kind.cpp
+    Strategies/Strategy.cpp
 )
 
 # Указываем, где искать заголовки
