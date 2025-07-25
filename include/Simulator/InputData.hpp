@@ -10,7 +10,8 @@ class InputData
     enum GameMode
     {
         FAST,
-        DETAILED
+        DETAILED,
+        TOURNAMENT
     };
 
     InputData(int argc, char* argv[]);
@@ -26,6 +27,14 @@ class InputData
     size_t steps_count;
     std::string config_path;
     std::string matrix_path;
+
+    int parse_strategy_names(int argc, char* argv[], int curr);
+    void parse_game_parameters(int argc, char* argv[], int curr);
+    void parse_game_mode(const std::string& mode);
+    void parse_steps_count(const std::string& count);
+    void parse_config_path(const std::string& path);
+    void parse_matrix_path(const std::string& path);
+    
 
     
 };

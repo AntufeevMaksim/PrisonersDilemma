@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/src/out.o",  // Путь к исполняемому файлу
-            "args": [],  // Аргументы командной строки (если нужны)
+            "args": ["Traitor", "Traitor", "Traitor", "--mode=detailed", "--steps=20"],  // Аргументы командной строки (если нужны)
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
