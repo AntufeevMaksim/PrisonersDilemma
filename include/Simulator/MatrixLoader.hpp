@@ -14,5 +14,5 @@ class MatrixLoader
     static GameMatrix LoadMatrix(const std::string& path);
 
     private:
-    static void write_to_array(std::array<int, PLAYERS_COUNT_IN_MATCH>& arr, std::ifstream& file);
+    static void write_to_array(std::array<int, STRATEGIES_COUNT>& arr, std::ifstream& file);
 };

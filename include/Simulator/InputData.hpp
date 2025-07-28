@@ -21,6 +21,8 @@ class InputData
     const std::string& get_config_path() const;
     const std::string& get_matrix_path() const;
 
+    static char read_char();
+
     private:
     std::vector<std::string> strategy_names;
     GameMode game_mode;

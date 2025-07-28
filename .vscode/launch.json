@@ -6,7 +6,14 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/src/out.o",  // Путь к исполняемому файлу
-            "args": ["Traitor", "Traitor", "Traitor", "--mode=detailed", "--steps=20"],  // Аргументы командной строки (если нужны)
+            "args": ["Traitor",
+                    "Traitor",
+                    "Traitor",
+                    "Kind",
+                    "--mode=tournament",
+                    "--steps=20",
+                    "--matrix=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/matrix"
+                    ],  // Аргументы командной строки (если нужны)
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

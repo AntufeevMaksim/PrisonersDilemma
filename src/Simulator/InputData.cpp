@@ -4,14 +4,10 @@
 #include <cstring>
 #include <stdexcept>
 #include <filesystem>
+#include <iostream>
 
 InputData::InputData(int argc, char *argv[])
 {
-    game_mode = FAST;
-    steps_count = 10;
-    config_path = "";
-    matrix_path = "/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/matrix";
-
     int curr = 1;
     curr = parse_strategy_names(argc, argv, curr);
     parse_game_parameters(argc, argv, curr);
@@ -53,7 +49,7 @@ int InputData::parse_strategy_names(int argc, char *argv[], int curr)
         }
         strategy_names.push_back(arg);
     }
-    return curr + 1;
+    return curr;
 }
 
 void InputData::parse_game_mode(const std::string &mode)
@@ -132,7 +128,7 @@ void InputData::parse_game_parameters(int argc, char *argv[], int curr)
         }
         else
         {
-            throw std::invalid_argument("Неизвестный аргумент: " + arg);
+            throw std::invalid_argument("Unknown argument: " + arg);
         }
     }
 
@@ -145,4 +141,10 @@ void InputData::parse_game_parameters(int argc, char *argv[], int curr)
         throw std::invalid_argument("This mode requires exactly 3 strategies");
     }
 
+}
+
+char InputData::read_char()
+{
+    int ch = getchar();
+    return ch;
 }

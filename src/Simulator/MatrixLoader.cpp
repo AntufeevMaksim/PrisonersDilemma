@@ -8,7 +8,7 @@ GameMatrix MatrixLoader::LoadMatrix(const std::string& path)
 
     std::ifstream file {path};
     
-    if (!file) {
+    if (!file){
         throw std::runtime_error("Cannot open matrix file");
     }
 
@@ -20,17 +20,17 @@ GameMatrix MatrixLoader::LoadMatrix(const std::string& path)
     return matrix;
 }
 
-void MatrixLoader::write_to_array(std::array<int, PLAYERS_COUNT_IN_MATCH>& arr, std::ifstream& file)
+void MatrixLoader::write_to_array(std::array<int, STRATEGIES_COUNT>& arr, std::ifstream& file)
 {
     size_t count = 0;
 
-    while (count < PLAYERS_COUNT_IN_MATCH && file >> arr[count]) {
+    while (count < STRATEGIES_COUNT && file >> arr[count]) {
         ++count;
     }
 
-    if (count < PLAYERS_COUNT_IN_MATCH) {
+    if (count < STRATEGIES_COUNT) {
         throw std::runtime_error("File contains fewer than " + 
-                               std::to_string(PLAYERS_COUNT_IN_MATCH) + " numbers");
+                               std::to_string(STRATEGIES_COUNT) + " numbers");
     }
 
 }
