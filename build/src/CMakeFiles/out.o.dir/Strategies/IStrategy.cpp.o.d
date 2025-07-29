@@ -1,7 +1,7 @@
-src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o: \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Strategy.cpp \
+src/CMakeFiles/out.o.dir/Strategies/IStrategy.cpp.o: \
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/IStrategy.cpp \
  /usr/include/stdc-predef.h \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/Strategy.hpp \
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/IStrategy.hpp \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -1,8 +1,9 @@
 
 #include "PrisonerSimulator.hpp"
-#include "Strategy.hpp"
+#include "IStrategy.hpp"
 #include "OutputData.hpp"
 #include "MatrixLoader.hpp"
+#include "StrategyFactory.hpp"
 
 #include <algorithm>
 #include <array>
@@ -10,11 +11,11 @@
 PrisonerSimulator::PrisonerSimulator(InputData &data) : input_data{data},
                                                         game_matrix{MatrixLoader::LoadMatrix(data.get_matrix_path())},
                                                         score(data.get_strategy_names().size(), 0),
-                                                        last_choice(data.get_strategy_names().size(), Strategy::BETRAY)
+                                                        last_choice(data.get_strategy_names().size(), IStrategy::BETRAY)
 {
     for (const std::string &name : input_data.get_strategy_names())
     {
-        strategies.push_back(Strategy::create(name));
+        strategies.push_back(StrategyFactory::instance().create(name));
     }
 }
 
@@ -32,9 +33,9 @@ void PrisonerSimulator::run()
 
 void PrisonerSimulator::compute_score(const std::array<int, STRATEGIES_COUNT> &strategies_idx)
 {
-    int idx = 4 * (last_choice[strategies_idx[0]] == Strategy::BETRAY ? 1 : 0);
-    idx += 2 * (last_choice[strategies_idx[1]] == Strategy::BETRAY ? 1 : 0);
-    idx += 1 * (last_choice[strategies_idx[2]] == Strategy::BETRAY ? 1 : 0);        
+    int idx = 4 * (last_choice[strategies_idx[0]] == IStrategy::BETRAY ? 1 : 0);
+    idx += 2 * (last_choice[strategies_idx[1]] == IStrategy::BETRAY ? 1 : 0);
+    idx += 1 * (last_choice[strategies_idx[2]] == IStrategy::BETRAY ? 1 : 0);        
 
     for (size_t i = 0; i < STRATEGIES_COUNT; i++)
     {

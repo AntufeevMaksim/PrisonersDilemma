@@ -1,7 +1,7 @@
 #pragma once
 
 #include "InputData.hpp"
-#include "Strategy.hpp"
+#include "IStrategy.hpp"
 
 #include <array>
 
@@ -18,9 +18,9 @@ class PrisonerSimulator
     private:    
     InputData input_data;
     GameMatrix game_matrix;
-    std::vector<std::unique_ptr<Strategy>> strategies;
+    std::vector<std::unique_ptr<IStrategy>> strategies;
     std::vector<int> score;
-    std::vector<Strategy::Choice> last_choice;
+    std::vector<IStrategy::Choice> last_choice;
 
     void compute_score(const std::array<int, STRATEGIES_COUNT> &strategies_idx);
     void play_one_game(const std::array<int, STRATEGIES_COUNT>& strategies_idx);

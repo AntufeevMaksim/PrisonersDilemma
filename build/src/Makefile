@@ -250,29 +250,29 @@ Strategies/Kind.cpp.s:
 	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.s
 .PHONY : Strategies/Kind.cpp.s
 
-Strategies/Strategy.o: Strategies/Strategy.cpp.o
-.PHONY : Strategies/Strategy.o
+Strategies/StrategyFactory.o: Strategies/StrategyFactory.cpp.o
+.PHONY : Strategies/StrategyFactory.o
 
 # target to build an object file
-Strategies/Strategy.cpp.o:
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.o
-.PHONY : Strategies/Strategy.cpp.o
+Strategies/StrategyFactory.cpp.o:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/StrategyFactory.cpp.o
+.PHONY : Strategies/StrategyFactory.cpp.o
 
-Strategies/Strategy.i: Strategies/Strategy.cpp.i
-.PHONY : Strategies/Strategy.i
+Strategies/StrategyFactory.i: Strategies/StrategyFactory.cpp.i
+.PHONY : Strategies/StrategyFactory.i
 
 # target to preprocess a source file
-Strategies/Strategy.cpp.i:
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.i
-.PHONY : Strategies/Strategy.cpp.i
+Strategies/StrategyFactory.cpp.i:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/StrategyFactory.cpp.i
+.PHONY : Strategies/StrategyFactory.cpp.i
 
-Strategies/Strategy.s: Strategies/Strategy.cpp.s
-.PHONY : Strategies/Strategy.s
+Strategies/StrategyFactory.s: Strategies/StrategyFactory.cpp.s
+.PHONY : Strategies/StrategyFactory.s
 
 # target to generate assembly for a file
-Strategies/Strategy.cpp.s:
-	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/Strategy.cpp.s
-.PHONY : Strategies/Strategy.cpp.s
+Strategies/StrategyFactory.cpp.s:
+	cd /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/out.o.dir/build.make src/CMakeFiles/out.o.dir/Strategies/StrategyFactory.cpp.s
+.PHONY : Strategies/StrategyFactory.cpp.s
 
 Strategies/Traitor.o: Strategies/Traitor.cpp.o
 .PHONY : Strategies/Traitor.o
@@ -346,9 +346,9 @@ help:
 	@echo "... Strategies/Kind.o"
 	@echo "... Strategies/Kind.i"
 	@echo "... Strategies/Kind.s"
-	@echo "... Strategies/Strategy.o"
-	@echo "... Strategies/Strategy.i"
-	@echo "... Strategies/Strategy.s"
+	@echo "... Strategies/StrategyFactory.o"
+	@echo "... Strategies/StrategyFactory.i"
+	@echo "... Strategies/StrategyFactory.s"
 	@echo "... Strategies/Traitor.o"
 	@echo "... Strategies/Traitor.i"
 	@echo "... Strategies/Traitor.s"

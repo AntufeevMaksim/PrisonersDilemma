@@ -1,12 +1,21 @@
 #include "Kind.hpp"
+#include "StrategyFactory.hpp"
+#include <memory>
 
-
-Strategy::Choice Kind::make_turn()
+IStrategy::Choice Kind::make_turn()
 {
     return COOPERATE;
 }
 
-void Kind::give_last_results(std::vector<Strategy::Choice>& last_choice)
+void Kind::give_last_results(const std::vector<IStrategy::Choice> &last_choice)
 {
-    
 }
+
+struct KindRegister
+{
+    KindRegister()
+    {
+        StrategyFactory::instance().register_strategy("Kind", []
+                                                      { return std::make_unique<Kind>(); });
+    }
+} kindRegister;
