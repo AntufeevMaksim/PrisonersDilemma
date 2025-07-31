@@ -213,4 +213,4 @@ src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o: \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/move_only_function.h \
  /usr/include/c++/13/bits/mofunc_impl.h \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/StrategyFactory.hpp
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/StrategyFactory.hpp

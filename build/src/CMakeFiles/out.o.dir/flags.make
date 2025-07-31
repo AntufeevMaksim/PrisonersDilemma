@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies -I/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Simulator
+CXX_INCLUDES = -I/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies -I/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Simulator -I/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include
 
 CXX_FLAGS = -g -std=gnu++23
 

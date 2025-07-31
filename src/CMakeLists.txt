@@ -15,7 +15,10 @@ target_include_directories(out.o
     PRIVATE
         ${CMAKE_SOURCE_DIR}/include/Strategies  # Путь к заголовкам
         ${CMAKE_SOURCE_DIR}/include/Simulator  # Путь к заголовкам
+        ${CMAKE_SOURCE_DIR}/include  # Путь к заголовкам
 )
 
+target_link_libraries(out.o PRIVATE dl)
+target_link_options(out.o PRIVATE -rdynamic)
 # Если нужны внешние библиотеки (например, Boost, OpenMP)
 # target_link_libraries(my_app PRIVATE Boost::boost)

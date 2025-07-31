@@ -1,7 +1,7 @@
 src/CMakeFiles/out.o.dir/Strategies/StrategyFactory.cpp.o: \
  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/StrategyFactory.cpp \
  /usr/include/stdc-predef.h \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/StrategyFactory.hpp \
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/StrategyFactory.hpp \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

@@ -226,7 +226,7 @@ src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/StrategyFactory.hpp \
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/StrategyFactory.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/ranges_algo.h \
  /usr/include/c++/13/optional \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h

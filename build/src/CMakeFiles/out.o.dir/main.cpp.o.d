@@ -218,4 +218,7 @@ src/CMakeFiles/out.o.dir/main.cpp.o: \
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/move_only_function.h \
- /usr/include/c++/13/bits/mofunc_impl.h
+ /usr/include/c++/13/bits/mofunc_impl.h \
+ /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/PluginLoader.hpp \
+ /usr/include/dlfcn.h /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
+ /usr/include/x86_64-linux-gnu/bits/dl_find_object.h

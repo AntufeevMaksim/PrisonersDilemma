@@ -8,9 +8,8 @@
             "program": "${workspaceFolder}/build/src/out.o",  // Путь к исполняемому файлу
             "args": ["Traitor",
                     "Traitor",
-                    "Traitor",
-                    "Kind",
-                    "--mode=tournament",
+                    "RandomStrategy",
+                    "--mode=fast",
                     "--steps=20",
                     "--matrix=/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/matrix"
                     ],  // Аргументы командной строки (если нужны)

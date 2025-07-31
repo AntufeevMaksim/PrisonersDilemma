@@ -728,7 +728,7 @@ src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o: /home/maksim/MyProgr
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Simulator/OutputData.hpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Simulator/PrisonerSimulator.hpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/IStrategy.hpp \
-  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/StrategyFactory.hpp \
+  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/StrategyFactory.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1003,7 +1003,7 @@ src/CMakeFiles/out.o.dir/Simulator/PrisonerSimulator.cpp.o: /home/maksim/MyProgr
 src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Kind.cpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/IStrategy.hpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/Kind.hpp \
-  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/StrategyFactory.hpp \
+  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/StrategyFactory.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1266,7 +1266,7 @@ src/CMakeFiles/out.o.dir/Strategies/Kind.cpp.o: /home/maksim/MyPrograms/cpp_proj
 
 src/CMakeFiles/out.o.dir/Strategies/StrategyFactory.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/StrategyFactory.cpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/IStrategy.hpp \
-  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/StrategyFactory.hpp \
+  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/StrategyFactory.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1529,8 +1529,8 @@ src/CMakeFiles/out.o.dir/Strategies/StrategyFactory.cpp.o: /home/maksim/MyProgra
 
 src/CMakeFiles/out.o.dir/Strategies/Traitor.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/Traitor.cpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/IStrategy.hpp \
-  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/StrategyFactory.hpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/Traitor.hpp \
+  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/StrategyFactory.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1792,6 +1792,7 @@ src/CMakeFiles/out.o.dir/Strategies/Traitor.cpp.o: /home/maksim/MyPrograms/cpp_p
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 src/CMakeFiles/out.o.dir/main.cpp.o: /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/main.cpp \
+  /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/PluginLoader.hpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Simulator/InputData.hpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Simulator/PrisonerSimulator.hpp \
   /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/IStrategy.hpp \
@@ -1935,6 +1936,7 @@ src/CMakeFiles/out.o.dir/main.cpp.o: /home/maksim/MyPrograms/cpp_projects/prison
   /usr/include/c++/13/unordered_map \
   /usr/include/c++/13/vector \
   /usr/include/ctype.h \
+  /usr/include/dlfcn.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
   /usr/include/features-time64.h \
@@ -1962,6 +1964,8 @@ src/CMakeFiles/out.o.dir/main.cpp.o: /home/maksim/MyPrograms/cpp_projects/prison
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/dl_find_object.h \
+  /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -2056,6 +2060,12 @@ src/CMakeFiles/out.o.dir/main.cpp.o: /home/maksim/MyPrograms/cpp_projects/prison
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 
+/usr/include/x86_64-linux-gnu/bits/dlfcn.h:
+
+/usr/include/dlfcn.h:
+
+/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/PluginLoader.hpp:
+
 /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Strategies/StrategyFactory.cpp:
 
 /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/Kind.hpp:
@@ -2064,9 +2074,11 @@ src/CMakeFiles/out.o.dir/main.cpp.o: /home/maksim/MyPrograms/cpp_projects/prison
 
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
+/usr/include/x86_64-linux-gnu/bits/dl_find_object.h:
+
 /usr/include/c++/13/algorithm:
 
-/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/Strategies/StrategyFactory.hpp:
+/home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/include/StrategyFactory.hpp:
 
 /home/maksim/MyPrograms/cpp_projects/prisoners_dilemma/src/Simulator/PrisonerSimulator.cpp:
 
